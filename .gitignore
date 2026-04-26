@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# Un-ignore directories so Git can traverse into them
+!*/
+
+# Un-ignore Jupyter notebooks
+!*.ipynb
+
+# Un-ignore README
+!README.md
+
+# Un-ignore Architecture & Methodology docs
+!*_Architecture_Methodology.md
+
+# Un-ignore this .gitignore itself
+!.gitignore
